@@ -171,13 +171,12 @@
 
             </section>
 
-            
-            <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="build/bootstrap/js/bootstrap.min.js"></script>
             <script>
                 window.onscroll = function() {
                     scrollFunction()
                 };
-
+        
                 function scrollFunction() {
                     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                         document.getElementById("goTop").style.display = "block";
@@ -185,18 +184,18 @@
                         document.getElementById("goTop").style.display = "none";
                     }
                 }
-
+        
                 $(document).ready(function() {
-
+        
                     $('#goTop').click(function() {
                         $('body,html').animate({
                             scrollTop: 0
                         }, 200);
                     });
                 });
-
+        
             </script>
-
+            
             <button id="goTop" title="Go to top"><i class="fa fa-chevron-up"></i></button>
             <footer>
             <div class="socialFooter">
@@ -214,7 +213,6 @@
         
 
     </div>
-    
 
     <script type="text/javascript">
         var winWidth  = $(window).width();
